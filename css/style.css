@@ -62,7 +62,7 @@
 
 
 
-
+/****** Headline Area *****/
 .headline-area {
     background-color: #F7F7F7;
     padding: 10px 0px;
@@ -86,6 +86,137 @@
     font-weight: 600;
     color: 000;
 }
-.headline-area .breaking {
+/****** Headline Area *****/
+
+
+/***** Header Area *****/
+.header-area {
+    background: #FFF;
+    padding: 30px 0px;
+    border: 1px solid #1F2F5F;
+}
+.eng-btn, .bn-btn {
+    padding-top: 10px;
+}
+.header-area .eng-btn button,
+.header-area .bn-btn button {
+    border: none;
+    background: #14679E;
+    color: #FFF;
+    padding: 8px;
+    letter-spacing: 1.2px;
+    border-radius: 2px;
+}
+.header-area .eng-btn span,
+.header-area .bn-btn span {
+    font-size: 15px;
+    letter-spacing: .6px;
+    line-height: 2.5em;
+}
+.header-area .eng-btn strong,
+.header-area .bn-btn strong {
+    color: #1F2F5F;
+}
+.jrna {
+    color: #F05A24;
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: 1px;
+    text-align: center;
     
 }
+
+.header-area .logo img{
+    width: 60%;
+    height: auto;
+    margin: auto;
+    display: block;
+    padding: 5px 0px;
+
+}
+/***** Header Area *****/
+
+
+
+/***** Main Content *****/
+.main-content {
+    padding: 30px 0px;
+    overflow: hidden;
+    background-color: #F7F7F7;
+}
+.main-content .left-side {
+    overflow: hidden;
+}
+
+.main-content .left-side img {
+    width: 97%;
+    height: auto;
+}
+
+.main-content .left-side .side-2 {
+    padding: 10px 0px;
+
+}
+
+.main-content .middle .img{
+    overflow: hidden;
+}
+
+.main-content .middle {
+    padding: 30px 0px 20px 0px;
+}
+.main-content .middle .img img {
+    width: 98%;
+    height: auto;
+    margin-left: 5px;
+}
+.main-content .middle .middle-lekha h2 {
+    font-size: 22px;
+    line-height: 1.4em;
+}
+
+.main-content .middle .middle-lekha p {
+    line-height: 1.4em;
+    font-size: 16px;
+}
+
+.main-content .right-side {
+    overflow: hidden;
+}
+
+.main-content .right-side img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+/***** Main Content *****/
+
+
+/***** other-news *****/
+.other-news {
+    overflow: hidden;
+    padding: 30px 0px;
+}
+
+.other-news img{
+    width: 98%;
+    height: auto;
+}
+.other-news p,
+.other-news h2 {
+    line-height: 1.2em;
+}
+/***** other-news *****/
+
+
+/***** Footer *****/
+.footer-area {
+    padding: 20px 0px;
+    background: #000;
+    overflow: hidden;
+    color: #FFF;
+    text-align: center;
+    line-height: 1.3em;
+    letter-spacing: .5px;
+} 
+/***** Footer *****/
