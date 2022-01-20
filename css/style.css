@@ -136,6 +136,34 @@
 }
 /***** Header Area *****/
 
+/***** Menu Area *****/
+.menu-area {
+    overflow: hidden;
+    padding: 30px 0px;
+    background: #34495e;
+}
+
+.menu-area .menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+.menu-area .menu ul li {
+    display: inline;
+    margin: 0px 15px;
+}
+.menu-area .menu ul a {
+    text-decoration: none;
+    text-transform: capitalize;
+    display: inline-block;
+    padding: 3px 0px;
+    color: #FFF;
+    letter-spacing: 1px;
+    font-size: 18px;
+}
+/***** Menu Area *****/
+
 
 
 /***** Main Content *****/
